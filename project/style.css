@@ -1,0 +1,28 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    
+    list-style-type: none;
+   
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 10px;
+     background-color: red;
+}
+li a:hover{
+    background-color: white;
+    color: red;
+}
+h2{
+    color: rgb(47, 0, 255);
+}
+li a.isActive {
+    background-color: rgb(47, 0, 255);
+    color: white;
+  }
